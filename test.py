@@ -11,8 +11,13 @@ def test_enrollStudents(student_manager):
 
 def test_dropStudents(student_manager):
     student_manager.enrollStudents(10)
+<<<<<<< HEAD
     student_manager.dropStudents(4)
     assert student_manager.getTotalStrength() == 6
+=======
+    student_manager.dropStudents(2)
+    assert student_manager.getTotalStrength() == 8
+>>>>>>> dc41609ec5bd1c3dd04cab9bd4d08dd1e01075c5
 
 def test_getTotalStrength(student_manager):
     student_manager.enrollStudents(8)
