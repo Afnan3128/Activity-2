@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from the Git repository
-                git 'https://github.com/yourusername/your-repo.git'
+                git 'https://github.com/Afnan3128/Activity-2.git'
             }
         }
         stage('Install Dependencies') {
